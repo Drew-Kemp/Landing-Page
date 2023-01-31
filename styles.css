@@ -169,3 +169,11 @@ h3 {
 .header-text {
     color: #f9faf8
 }
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    padding: 25px;
+    justify-content: center;
+    color: #f9faf8;
+}
