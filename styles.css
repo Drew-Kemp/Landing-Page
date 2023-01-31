@@ -101,7 +101,9 @@ h3 {
 }
 
 .text {
-    color: #68696b
+    color: #68696b;
+    display: flex;
+    justify-content: center;
 }
 
 .quote {
@@ -124,4 +126,46 @@ h3 {
     display: flex;
     justify-content: flex-end;
     font-weight: 900;
+}
+
+.container {
+    margin: 0;
+    padding: 10px 500px;
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    margin: 100px;
+    background-color: #3882f6;
+    border-radius: 20px;
+}
+
+.sub-container {
+    display: flex;
+    gap: 100px;
+}
+
+.header-banner {
+    margin-right: 424px;
+    font-weight: 900;
+    color: #f9faf8
+    
+}
+
+.button-two {
+    padding: 10px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    border-color: #f9faf8;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.header-text {
+    color: #f9faf8
 }
