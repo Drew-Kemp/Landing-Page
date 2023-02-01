@@ -128,46 +128,35 @@ h3 {
     font-weight: 900;
 }
 
-.container {
-    margin: 0;
-    padding: 10px 500px;
-}
-
-.inner-container {
+.sign-up {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    padding: 50px;
-    margin: 100px;
-    background-color: #3882f6;
-    border-radius: 20px;
+    align-items: center;
+    padding: 5em 13em;
 }
 
-.sub-container {
+.container {
     display: flex;
-    gap: 100px;
-}
-
-.header-banner {
-    margin-right: 424px;
-    font-weight: 900;
-    color: #f9faf8
-    
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 3em;
+    width: 50%;
+    border-radius: 10px;
 }
 
 .button-two {
-    padding: 10px;
-    width: 80px;
-    border-radius: 10px;
-    background-color: #3882f6;
-    border-color: #f9faf8;
+    border: 2px solid #f9faf8;
+}
+
+.header-banner {
+    font-size: 24px;
     color: #f9faf8;
-    font-weight: 900;
 }
 
 .header-text {
-    color: #f9faf8
+    font-size: 16px;
+    color: #f9faf8;
 }
 
 .footer {
